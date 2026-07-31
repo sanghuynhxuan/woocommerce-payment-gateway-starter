@@ -1,19 +1,18 @@
 # WooCommerce Payment Gateway Starter
 
-A starter architecture for integrating custom WooCommerce payment providers.
+A checkout gateway-title customization hook suitable for payment integration workflows.
 
-## Client value
+## Functional scope
 
-Secure payment integration structure, checkout compatibility, and maintainable extension points.
+- Runs as a standalone WordPress plugin
+- Includes an admin settings screen and an enable/disable option
+- Implements real WordPress or WooCommerce hooks for the stated workflow
+- Cleans up its option on uninstall
 
-This public reference implementation demonstrates a maintainable approach to WordPress and WooCommerce client work: clean extension points, predictable deployment, and focused code.
+## Installation
 
-## What this starter includes
+Copy this repository into `wp-content/plugins/woocommerce-payment-gateway-starter`, activate it, then open **Settings → WooCommerce Payment Gateway Starter**.
 
-- A focused entry point for the stated use case
-- A clear foundation for client-specific customization
-- An intentionally compact structure for safe iteration
+## Production note
 
-## Notes
-
-This repository is a focused portfolio starter, not a replacement for a full discovery, QA, or production deployment process.
+This is a working reference implementation intended for discovery and adaptation to a client’s requirements. Test on staging before deployment.
