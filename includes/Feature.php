@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WoocommercePaymentGatewayStarter;
 if (! defined('ABSPATH')) { exit; }
-final class WoocommercePaymentGatewayStarterFeature {
+final class Feature {
     private const OPTION = 'woocommerce_payment_gateway_starter_enabled';
     private const SLUG = 'woocommerce-payment-gateway-starter';
     private const TITLE = 'WooCommerce Payment Gateway Starter';
